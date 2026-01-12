@@ -12,12 +12,10 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, NoTreePunching_Patch.MODID);
 
     //region Custom Items
-    /*
     public static final RegistryObject<Item> AMETHYST_KNIFE = ITEMS.register(
             "amethyst_knife",
             () -> new Item(new Item.Properties())
     );
-    */
     //endregion
 
     public static void register(IEventBus eventBus){

@@ -1,5 +1,6 @@
 package net.reginald.notreepunching_patch;
 
+import com.alcatrazescapee.notreepunching.common.items.ModItemGroups;
 import com.mojang.logging.LogUtils;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;

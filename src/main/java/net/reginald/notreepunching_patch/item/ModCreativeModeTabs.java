@@ -9,7 +9,7 @@ import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 public class ModCreativeModeTabs {
     // Registers the new Items
     public static void registerNew(BuildCreativeModeTabContentsEvent event){
-        // event.accept(ModItems.AMETHYST_KNIFE);
+        event.accept(ModItems.AMETHYST_KNIFE);
     }
 
     // Registers the Items from notreepunching, that have been omitted in the original mod.
@@ -19,6 +19,7 @@ public class ModCreativeModeTabs {
                 // Ceramics
                 "ceramic_large_vessel",
                 // Clay Items
+                // omitting clay_worked
                 "clay_large_vessel",
                 "clay_small_vessel",
                 "clay_bucket",
